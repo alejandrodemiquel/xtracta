@@ -2,7 +2,7 @@
 
 This repository contains the program to extract the supplier name from an invoice.
 
-To execute it straight away, just execute the following commands in python:
+To execute it straight away, clone the repository, start python in the cloned folder and execute the following commands in python:
 
 ```
 import exercise
@@ -12,6 +12,13 @@ supplier = exercise.get_supplier_from_invoice(invoice, supplier_names)
 ```
 
 `supplier` will contain the name of the supplier that appears in the invoice.
+
+<br/><br/>
+If you don't want to start python in the cloned folder, you can also start python anywhere and then execute:
+```
+import os
+os.chdir(path_to_cloned_repository)
+```
 
 ## The exercise module
 
