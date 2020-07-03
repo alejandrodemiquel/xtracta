@@ -31,3 +31,4 @@ The file that solves the exercise is exercise.py. It's a python module with thre
 - test.py contains a unit test that tests the correctness of `get_supplier_from_invoice`.
 - The folder original_files contains the two .txt files that were originally provided for solving the exercise.
 - The folder preprocessed_files contains the two preprocessed original files, that I slightly modified in order for them to be read properly by the functions in the exercise module. In particular, invoice is a csv file and supplier_names is a jsonl file. I also added an extra file, fake_suppliers.csv, that I generated in order to test how the algorithm performed with hundreds of thousands of suppliers.
+- requirements.txt includes the requirements for the module to work as expected.
