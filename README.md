@@ -13,8 +13,7 @@ supplier = exercise.get_supplier_from_invoice(invoice, supplier_names)
 
 `supplier` will contain the name of the supplier that appears in the invoice.
 
-<br/><br/>
-If you don't want to start python in the cloned folder, you can also start python anywhere and then execute:
+If you don't want to start python in the cloned folder, you can also start python anywhere and then execute at the beginning:
 ```
 import os
 os.chdir(path_to_cloned_repository)
